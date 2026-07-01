@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6f0002/T/v1
+canonical_location: https://kanripo.org/bkk/KR6f0002/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大方廣三戒經
+  identifiers:
+    krp: KR6f0002
+    cbeta: T11n0311
+    cbeta_old_id: T11n0311
+    authorityid: CA0002720
+    json_key: T0311
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T11/T11n0311.xml
+    old_id: T11n0311
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0002_000-T.yaml, hash: 'sha256:a1553fb0359287384151affa484d3a090afec3a3b9be455a7debab584de2d0a1'}
+  - {seq: 1, filename: KR6f0002_001-T.yaml, hash: 'sha256:cba8b18616f3bd11ef4155617d6f03b2891929a0cf028dac9f7b2dd93963effd'}
+  - {seq: 2, filename: KR6f0002_002-T.yaml, hash: 'sha256:bd63256815b8cf4abc225485e53fd05962a2484c6659b5f3834d14ff5eccc293'}
+  - {seq: 3, filename: KR6f0002_003-T.yaml, hash: 'sha256:19d01798b53a290f0f328f81ebb7bee2018e42437ca8b0b520e9ac53f92dc59d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6f0002_000-T.markers.yaml, hash: 'sha256:55aeb7eac3aae4ba8f820c788e725896dc797eb278049a05e5f0758a52ebe9ce'}
+  - {seq: 1, role: markers, filename: assets/KR6f0002_001-T.markers.yaml, hash: 'sha256:e00949f70ce5528d8218efae308a6516521468a58ef5540ac0c4726b792ee8fd'}
+  - {seq: 2, role: markers, filename: assets/KR6f0002_002-T.markers.yaml, hash: 'sha256:f93885f9dcfd3a45ce072a46f0c48ad6d9abb40f18cede0c1b84aea92edfb2a9'}
+  - {seq: 3, role: markers, filename: assets/KR6f0002_003-T.markers.yaml, hash: 'sha256:c14fed2801dd129ddd5fe417d6831290b63b585fcbf1235a98469b79885f816e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6f0002_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5748
+  label: 大方廣三戒經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6f0002_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7505
+  label: 大方廣三戒經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6f0002_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 8063
+  label: 大方廣三戒經卷下
+  type: juan
+  level: 1
+hash: sha256:27e3d5be882e7af5f8e15eb73729c61aa7792f79ca927698c964d26499d8dece
